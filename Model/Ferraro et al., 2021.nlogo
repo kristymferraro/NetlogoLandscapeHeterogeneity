@@ -336,24 +336,24 @@ if Population = 8 [
     let x count caribous - 10
     ask n-of x caribous [
       deposit-body-n ;this will only happen if cumlative is on
-      set total-dead total-dead + 1
-      set adult-dead adult-dead + 1
+      set total-dead total-dead + x
+      set adult-dead adult-dead + x
        die]]]
 if Population = 72 [
   if count caribous > 100 [
     let x count caribous - 100
     ask n-of x caribous [
       deposit-body-n ;this will only happen if cumlative is on
-      set total-dead total-dead + 1
-      set adult-dead adult-dead + 1
+      set total-dead total-dead + x
+      set adult-dead adult-dead + x
       die]]]
 if Population = 180 [
   if count caribous > 252 [
     let x count caribous - 252
     ask n-of x caribous [
       deposit-body-n ;this will only happen if cumlative is on
-      set total-dead total-dead + 1
-      set adult-dead adult-dead + 1
+      set total-dead total-dead + x
+      set adult-dead adult-dead + x
       die]]]
 
 
